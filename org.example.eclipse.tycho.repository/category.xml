@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.example.eclipse.tycho.feature" version="0.0.0">
+      <category name="main"/>
+   </feature>
+   <feature id="org.example.eclipse.tycho.feature.source" version="0.0.0">
+      <category name="main.source"/>
+   </feature>
+   <category-def name="main" label="Eclipse Tycho Demo"/>
+   <category-def name="main.source" label="Eclipse Tycho Demo (Sources)"/>
+</site>

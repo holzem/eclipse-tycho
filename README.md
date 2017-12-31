@@ -7,7 +7,23 @@ How to add tycho to an existing eclipse plugin feature...
 Below I describe in _Setting up your own project_ the prerequisites of these directions. 
 I start with a basic Eclipse feature project and a basic Eclipse plug-in project.
 
-_to be continued..._  
+##### Create Parent POM 
+
+_coming soon..._
+
+##### Add a Target Definition as a Maven Module
+
+_coming soon..._
+
+##### Add a Category Manifest as a Maven Module
+
+_coming soon..._
+
+##### Add POMs for the existing Feature and UI Plug-Ins
+
+_coming soon..._
+
+##### Launch Configurations
 
 ## Setting up your own project
 
