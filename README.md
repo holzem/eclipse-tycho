@@ -2,6 +2,23 @@
 
 Tutorial how to add [Tycho](https://www.eclipse.org/tycho/ "Tycho")  to an existing Eclipse Plug-in feature...
 
+## Table of content
+
+* [Adding Tycho](#adding-tycho)
+* [Main Pointers to the essential files before the explanation](#main-pointers-to-the-essential-files-before-the-explanation)
+* [Step by step instructions](#step-by-step-instructions)
+    * [Create Parent POM](#create-parent-pom)
+    * [Add a Target Definition as a Maven Module](#add-a-target-definition-as-a-maven-module)
+    * [Define the Eclipse repository for the build](#define-the-eclipse-repository-for-the-build)
+    * [Add POMs for the existing Feature and UI Plug-Ins](#add-poms-for-the-existing-feature-and-ui-plug-ins)
+    * [Launch Configurations](#launch-configurations)
+    * [Adding Unit TEsts](#adding-unit-tests)
+* [Setting up your own project](#setting-up-your-own-project)
+    * [Create a Plug-in](#create-a-plug-in)
+    * [Create a Feature](#create-a-feature)
+    * [Export as p2 repository](#export-as-p2-repository)
+    * [Share into a GIT repository](#share-into-a-git-repository)
+
 ## Adding Tycho
 
 Below I describe in [Setting up your own Project](#setting-up-your-own-project) the prerequisites of these instruction. 
