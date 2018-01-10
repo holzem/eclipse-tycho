@@ -17,6 +17,7 @@
 		<module>org.example.eclipse.tycho.feature</module>
 		<module>org.example.eclipse.tycho.ui</module>
 		<module>org.example.eclipse.tycho.repository</module>
+		<module>org.example.eclipse.tycho.tests</module>
 	</modules>
 	<build>
 		<plugins>
@@ -26,6 +27,12 @@
 				<artifactId>tycho-maven-plugin</artifactId>
 				<version>${tycho-version}</version>
 				<extensions>true</extensions>
+			</plugin>
+			<!-- tycho-surefire-plugin -->
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<version>${tycho-version}</version>
 			</plugin>
 			<!-- tycho-source-plugin -->
 			<plugin>
@@ -188,4 +195,16 @@
 		</pluginManagement>
 
 	</build>
+	<scm>
+		<url>https://github.com/holzem/eclipse-tycho</url>
+	</scm>
+	<issueManagement>
+		<url>https://github.com/holzem/eclipse-tycho/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+	<organization>
+		<url>https://github.com/holzem/</url>
+	</organization>
+	<url>https://github.com/holzem/eclipse-tycho</url>
+	<name>Eclipse Tycho Demo</name>
 </project>
