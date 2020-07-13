@@ -101,8 +101,8 @@ Having set the basic information how to compile the eclipse feature the target h
 be defined. Create a new module to hold the target definition to be used by the build.
 Be sure to set `eclipse-target-definition` as the packaging of the POM.
 
-![New Maven module for target definition page 1](resources/new-Maven-module-target-1.png "New Maven module for target definition page 1") 
-![New Maven module for target definition page 2](resources/new-Maven-module-target-2.png "New Maven module for target definition page 2")
+![New Maven module for target definition page 1](resources/new-maven-module-target-1.png "New Maven module for target definition page 1") 
+![New Maven module for target definition page 2](resources/new-maven-module-target-2.png "New Maven module for target definition page 2")
 
 Now create a target definition for the build, using the desired Eclipse Platform version:
 
@@ -136,9 +136,9 @@ It defines the desired runtime environment for this target as well.
 We are still not there. Now we need to define the p2 repository for the build output and create a category manifest.
 Make sure to choose `eclipse-repository` as the packaging of the POM.
 
-![New Maven module for the p2 repository page 1](resources/new-Maven-module-repository-1.png "New Maven module for the p2 repository page 1") 
-![New Maven module for the p2 repository page 2](resources/new-Maven-module-repository-2.png "New Maven module for the p2 repository page 2")
-![New category manifest](resources/new-Maven-module-repository-category-manifest.png "New category manifest")
+![New Maven module for the p2 repository page 1](resources/new-maven-module-repository-1.png "New Maven module for the p2 repository page 1") 
+![New Maven module for the p2 repository page 2](resources/new-maven-module-repository-2.png "New Maven module for the p2 repository page 2")
+![New category manifest](resources/new-maven-module-repository-category-manifest.png "New category manifest")
 
 Unfortunately I found no way to create the desired output using the manifest editor. So I chose the XML editor instead:
 
